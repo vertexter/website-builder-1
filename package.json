@@ -1,0 +1,11 @@
+{
+  "name": "pitch-ai-backend",
+  "version": "1.0.0",
+  "description": "Production-ready backend for Pitch AI SaaS",
+  "main": "api/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node api/server.js",
+    "check": "node --check api/server.js"
+  }
+}
