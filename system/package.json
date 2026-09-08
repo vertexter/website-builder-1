@@ -1,0 +1,17 @@
+{
+  "name": "the-system-habit-tracker",
+  "version": "1.0.0",
+  "description": "THE SYSTEM — an RPG-style progression habit tracker. Turn real life into quests, XP, levels and ranks.",
+  "private": true,
+  "main": "server/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "check": "node --check server/index.js",
+    "test": "node --test server/test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
